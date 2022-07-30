@@ -215,8 +215,10 @@ export default function App() {
       {!isfetched && (
         <div className="start_page">
           <h1>Quizzy</h1>
-          <p>Take 5 Random questions,And Score your best</p>
+          <p className="App_p">Take 5 Random questions and Score your best</p>
           <button onClick={togglefetch}>Start</button>
+
+          <div className="footer">made by <b className="footer_bottom">Karim</b> </div>
         </div>
         
       )}

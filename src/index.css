@@ -107,13 +107,13 @@ ul{
 }
 p{
     margin: 50px;
-color: goldenrod;
+color: rgb(182, 170, 5);
 font-weight: 700;
 }
 
 
  .input_radio:checked+label {
-    background-color:rgb(255, 215, 0, 0.4) ;
+    background-color:rgb(255, 217, 0) ;
 }
 label{
     display: inline-block;
@@ -279,7 +279,9 @@ padding-bottom: 100px;
    border: 1px solid goldenrod;
      margin-top:40px; 
      cursor: pointer;
-     color: goldenrod;
+     text-shadow: 2px 1px rgb(8, 8, 8);
+     color: rgb(255, 255, 254);
+     text-shadow: blue, green;
        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
        font-weight: bold;
 }
@@ -322,8 +324,8 @@ position: relative;
     width: 140px;
     border: 1px solid goldenrod;
     border-radius: 10px;
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 241, 241);
     cursor: pointer;
     font-weight: bold;
 
@@ -416,6 +418,7 @@ font-size: 2rem;
         background-image: url(blob/quiz.jpg)
 
     }
+
 .btn_validate:focus{
     
     outline: none;
@@ -423,7 +426,7 @@ font-size: 2rem;
 
 .btn_validate:active{
     
-    box-shadow: inset 5px 5px 10px -3px black;
+    box-shadow: inset 5px 5px 10px -3px rgb(14, 13, 13);
     background-color: rgba(251,194,0,255);
     color: white;
     }
@@ -649,6 +652,10 @@ z-index: 6;
             width: 14.5rem;
         font-size: 0.8rem;
         text-align: center;
+        
+        }
+        .start_page p{
+            color: rgb(7, 6, 6);
         }
           .container button{
               font-size:  0.60rem;
@@ -730,4 +737,17 @@ z-index: 6;
    .contai button{
 padding: 3px;
 margin-left: 10px;
+   }
+
+   .btn_validate{
+    color: white;
+   }
+
+   .footer_bottom{
+    color: rgb(20, 20, 19);
+   }
+
+   .footer{
+    position: absolute;
+    bottom: 0;
    }
